@@ -76,6 +76,7 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\CharacterSkinController.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\MovementInput.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\enemy.cs" />
     <Compile Include="Assets\Scripts\npc.cs" />
     <Compile Include="Assets\Scripts\npcData.cs" />
