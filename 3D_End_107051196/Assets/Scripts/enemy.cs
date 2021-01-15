@@ -49,9 +49,6 @@ public class enemy : MonoBehaviour
         Gizmos.DrawRay(atkPoint.position, atkPoint.forward * atkLength);
     }
 
-    private RaycastHit hit;
-    public float hp = 100;
-
     /// <summary>
     /// 攻擊
     /// </summary>
@@ -82,6 +79,13 @@ public class enemy : MonoBehaviour
         }
     }
 
+    private RaycastHit hit;
+    public float hp = 100;
+
+    /// <summary>
+    /// 受傷
+    /// </summary>
+    /// <param name="damage">接收的傷害值</param>
     public void Damage(float damage)
     {
         hp -= damage;
